@@ -4,12 +4,12 @@ import java.util.LinkedList;
         import java.util.Scanner;
 
 //class representing Structure of node in the binary tree
-class treeNode {
+class treeNodde {
     int data;
     tNode left;
     tNode right;
 
-    public treeNode(int element) {
+    public treeNodde(int element) {
         data = element;
         left = null;
         right = null;
