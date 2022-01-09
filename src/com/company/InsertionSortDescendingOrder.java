@@ -4,7 +4,6 @@ import java.util.Scanner;
 class InsertionSortDescendingOrder {
     public static void insertionSortDescending(int array[]) {
         //write your code here
-        int sorted = array[0];
         for (int i = 1; i < array.length; i++) {
             for (int j = i + 1; j > 0; j--) {
                 if (j == array.length)
